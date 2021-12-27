@@ -1,0 +1,24 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "removeComments":true,
+        "sourceMap": true,
+        "inlineSourceMap": false,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "suppressExcessPropertyErrors": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "preserveConstEnums": false,
+        "allowUnreachableCode": false,
+        "noEmitOnError": true,
+        "lib": [
+            "es5",
+            "dom"
+         ],
+        "sourceRoot": "./src",
+        "outDir": "./bin"
+    }
+}
